@@ -1,0 +1,41 @@
+<div class="ap container">
+
+    <h2 class="secao_titulo"><i class="fa fa-angle-right fa-1x"></i>&nbsp;WebTabuas</h2>
+    <h4>Descrição:</h4>
+    <h5 class="trab_texto">
+        Sistema para análise de dados e construção de tábuas biométricas. Tudo começou porque no laboratório aonde fazia iniciação cientifica tinhamos muitas tarefas manuais, afim de resolver isso começamos um projeto desktop em JAVA com a ideia de automatizar essas tarefas. Contudo com o tempo vimos que aquela arquitetura tinha várias limitações, principalmente na questão de transportar o sistema, que tinha muitas depedências e precisava conectar com o banco, o que não era possível de fora do laboratório, pois o banco é fechado por questões de contrato e segurança. Com isso em mente comecei a trabalhar numa versão web para esse sistema, escolhi o PHP pois era uma linguagem na qual eu já estava muito confortável e porque a maior parte dos cálculos pesados seria feito dentro do banco de qualquer forma, que fica em um servidor clusterizado, muito mais potente.
+    </h5>
+
+    <h5 class="trab_texto">
+        Trabalhei nessa aplicação por 4 meses até chegar a um protótipo que tinha as mesmas funções do sistema original, apresentei em uma reunião aonde foi aprovado e ganhei uma equipe para me auxiliar na continuação do desenvolvimento.
+    </h5>
+
+    <h5 class="trab_texto">
+        Trabalhei nessa aplicação por 4 meses até chegar a um protótipo que tinha as mesmas funções do sistema original, apresentei em uma reunião aonde foi aprovado e ganhei uma equipe para me auxiliar na continuação do desenvolvimento.
+
+        A aplicação consiste em 3 partes:<br><br>
+        ■ <b>Seleção de dados:</b> aqui o usuário seleciona as grupos, empresas, produtos e coberturas que deseja analisar.<br>
+        ■ <b>Filtragem de dados:</b> nessa parte o usuário tem uma visão geral das subpopulações em uma tabela, dado a seleção, podendo seleciona-las de diversas formas(toda a interação é feita em javascript). Essas subpopulações são separadas por uma distribuição, isso é muito importante pois auxilia na questão do pré-processamento dos dados(mais de 200 milhões de registros) ajudando-nos a visualizar as populações "outliers".<br>
+        ■ <b>Gráficos:</b> depois das duas primeiras etapas, o usuário pode gerar gráficos das subpopulações que selecionou. Esses gráficos incluem gráficos de probabilidade mortalidade, quantidade de indíviduos e óbitos; a princípal utilidade dessa parte é comparação, aqui o usuário pode comparar com tabuas biométricas de outros países(como, por exemplo, a CSO) ou mesmo a nossa própria tábua brasileira lançada pelo laboratório(BR-EMS). Outra funcionalidade importante dessa parte são os ajustes estatísticos, implementamos alguns dos ajustes que usamos aqui usando uma ponte entre o PHP e o R(com o RServer), o usuário pode aplicar esses ajustes facilmente, o javascript cuida de tudo com ajax por baixo dos panos.    </h5>
+
+    <div class="trab_tecnolgias">
+        <h4>Tecnologias usadas:</h4>
+        <div class="tech_usd">APACHE2</div>
+        <div class="tech_usd">ORACLE DATABASE</div>
+        <div class="tech_usd">PHP</div>
+        <div class="tech_usd">CODEIGNITER</div>
+        <div class="tech_usd">R</div>
+        <div class="tech_usd">HTML5</div>
+        <div class="tech_usd">CSS3</div>
+        <div class="tech_usd">JAVASCRIPT</div>
+        <div class="tech_usd">JQUERY</div>
+        <div class="tech_usd">HIGHCHARTS.JS</div>
+        <div class="tech_usd">BOOTSTRAP3</div>
+    </div>
+    <div class="trab_imagens">
+        <h4>Screenshots</h4>
+        <a href="assets/imgs/webt1.png" target="_blank"><img class="trab_ss" src="assets/imgs/webt1_t.png"/></a>
+        <a href="assets/imgs/webt2.png" target="_blank"><img class="trab_ss" src="assets/imgs/webt2_t.png"/></a>
+        <a href="assets/imgs/webt3.png" target="_blank"><img class="trab_ss" src="assets/imgs/webt3_t.png"/></a>
+    </div>
+</div>
